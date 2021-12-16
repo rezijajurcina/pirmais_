@@ -1,80 +1,69 @@
-  .teksts {
-display: flex;
+  .text {
 padding: 16px 32px 8px;
 margin: 8px 12px;
-font-family: 'Trebuchet MS', monospace;
-font-size: 32px;
-color:#ECECEC;
+font-family: 'Brush Script MT', monospace;
+font-size: 28px;
+color:#FFFFFF;
 }
-.arejaKaste{
-  border-style: double;
+.kastite{
   margin: 50px 20px 50px 20px;
-  background-color:#2E2E2E;
-  border-color: #ECECEC;
+  background-color:#63CC0F;
+  border-color: #FFFFFF;
   padding: 15px 15px 15px 15px;
-  width: 30%;
+  width: 35%;
 }
-.poga{
-  background-color: #42135E;
+.pog{
+  background-color: #547E45;
   text-align: center;
-  color:#ECECEC;
-  font-size: 16px;
-  opacity: 0.6;
-  transition: 0.3s;
-  display: inline-block;
-  cursor: pointer;
-  border: 2px solid;
-  border-radius: 50px 20px;
-  padding: 7px 7px 7px 7px;
+  color:#63CC0F;
+  font-size: 18px;
+  border: 2px ;
+  border-radius: 50px 50px 50px 50px;
+  padding: 8px 8px 8px 8px;
   margin-left: 450px;
-  font-family: 'Trebuchet MS', monospace;
+  font-family: 'Brush Script MT', monospace;
 }
-.poga:hover {opacity: 1}
 
- .label {
-background-color: #42135E;
-color:#ECECEC;
+ .raksti {
+background-color: #547E45;
+color:#63CC0F;
 font-weight: bold;
-display: inline-block;
-width: 150px;
-border: 2px solid;
-border-radius: 25px 25px 25px 25px;
-padding: 7px 7px 7px 7px;
-margin: 10px 10px 10px 10px;
+width: 160px;
+border: 2px;
+border-radius: 22px 22px 22px 22px;
+padding: 8px 8px 8px 8px;
+margin: 12px 12px 12px 12px;
 text-align: center;
-font-family: 'Trebuchet MS', monospace;
+font-family: 'Brush Script MT', monospace;
 }
-.img {
-  border: 5px solid #ECECEC;
-  width:258px;
-  height:178px;
-  float: center;
-  margin-left: 75px;
+.bilza {
+  border: 5px;
+  width:50%;
+  height:50%;
+  margin-left: 80px;
 }
- .input{
-background-color: #42135E;
-color:#ECECEC;
-display: inline-block;
-width: 150px;
-border: 2px solid;
-border-radius: 25px 25px 25px 25px;
-padding: 7px 7px 7px 7px;
-margin: 10px 10px 10px 10px;
+ .ieksa{
+background-color: #547E45;
+color:#63CC0F;
+width: 170px;
+border: 2px;
+border-radius: 27px 27px 27px 27px;
+padding: 9px 9px 9px 9px;
+margin: 12px 12px 12px 12px;
 text-align: center;
-font-family: 'Trebuchet MS', monospace;
+font-family: 'Brush Script MT', monospace;
 }
- .check{
-color: #ECECEC;
-display: inline-block;
+ .lodzins{
+color:  #547E45;
 width: 150px;
-border: 2px solid;
-border-radius: 50px 50px 50px 50px;
-padding: 7px 7px 7px 7px;
-height: 25px;
-width: 25px;
-margin-left: 125px;
+border: 2px;
+border-radius: 46px 46px 46px 46px;
+padding: 5px 5px 5px 5px;
+height: 30px;
+width: 30px;
+margin-left: 135px;
 }
-.line{
+.svitra{
   width: 95%;
-  color: #42135E;
+  color: #547E45;
 }
