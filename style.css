@@ -1,3 +1,23 @@
+  .teksts {
+display: flex;
+padding: 16px 32px 8px;
+margin: 8px 12px;
+font-family: 'Trebuchet MS', monospace;
+font-size: 32px;
+color:#ECECEC;
+}
+.arejaKaste{
+  border-style: double;
+  margin: 50px 20px 50px 20px;
+  background-color:#2E2E2E;
+  border-color: #ECECEC;
+  padding: 15px 15px 15px 15px;
+  width: 30%;
+}
+.poga{
+  background-color: #42135E;
+  text-align: center;
+  color:#ECECEC;
   font-size: 16px;
   opacity: 0.6;
   transition: 0.3s;
