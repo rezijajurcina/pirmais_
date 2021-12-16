@@ -1,30 +1,29 @@
-<!DOCTYPE>
+ <!DOCTYPE html>
 <html>
-  <head>
-    <title> Anketa </title>
-  </head>
+<head>
+  <title>Anketa</title>
+  <link rel='stylesheet' type='text/css' media='screen' href='stili.css'>
+</head>
   <body>
-    <div>
-      <h1 style="text-align:center;"> Pieteikuma anketa HTML nodarbībai </h1>
-      <img src="attēli/makonis.jpg" alt="attēls">
-      <p> Ievadi informāciju par sevi:</p>
-      <form>
-        <br>
-        <label for="vards"> vārds:</label>
-        <input type="text" name="vārds" >
-      </form>
-      <label for="vecums">vecums:</label>
-    	  <select name="vecums" >
-        	  <option value="10-12">10-12 gadi</option>
-        	  <option value="13-16">13-16 gadi</option>
-        	  <option value="17-19">17-19 gadi</option>
-      </select>
-      <form>
-        <label for="papildus"> apgūšu arī javascript:</label>
-        <input type="checkbox" name="papildus" >
-      </form>
-      <hr>
-      <button type="button">Iesniegt pieteikumu</button>
-    </div>
+    <div class="arejaKaste">
+    <h1 class="teksts" style="text-align:center">Pieteikuma anketa HTML nodarbībai</h1>
+     <img src="code2.png" alt="kodbilde" class="img">
+     <br>
+      <p1 class="teksts">Ievadi datus par sevi</p1>
+       <form>
+        <label for="vards"; class="label"> Vārds:</label>
+        <input type="text" name="vards" class="input">
+       </form>
+     <label for="vecums"; class="label">Vecums:</label>
+    	<select name="vecums" class="input">
+        	<option value="10-12" class="select">10-12 gadi</option>
+        	<option value="13-16" class="select">13-16 gadi</option>
+        	<option value="17-19" class="select">17-19 gadi</option>        
+    	</select>
+     <br>
+      <label for="apgusu ari Java Script"; class="label">Apgūšu arī Java Script</label>
+      <input type="checkbox" id="apgusu ari Java Script" name="Apgūšu arī Java Script" class="check">
+     <hr class="line">
+      <button class="poga">Iesniegt</button>
+     </div>
   </body>
-</html>
